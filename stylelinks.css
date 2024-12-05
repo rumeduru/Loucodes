@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+    background-image:url(e47b3b91f8aef7ddeff22720c2b1bd1a.jpg);
+    margin: 30px;
+    padding: 100px;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000;
+}   
+.box2{
+    background-image: url(d777a50542f928020ca9362d83ae1816.jpg);
+    margin: 30px;
+    padding: 100px;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000;
+}   
+.box3{
+    background-image: url(d24bc2e7fed7aa7dc070b2a2374bf8c9.jpg);
+    margin: 30px;
+    padding: 100px;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000;
+}   
+.box1 a:hover{
+    text-decoration: none;
+    background-color: aqua;
+}
+.box2 a:hover{
+    text-decoration: none;
+    background-color: aqua;
+}
+.box3 a:hover{
+    text-decoration: none;
+    background-color: aqua;
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    background-color: #6269c5;
+    padding: 10px;
+    justify-content: center;
+}
+.navbar a{
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: rgba(255, 255, 255, 0.288);
+    color: #000;
+}   
+.nav{
+    display: flex;
+    list-style-type: none;   
+    padding: 10px;
+}
+.nav a{
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.nav :hover{
+    background-color:  #777;;
+}
+.h1{
+    text-align: center;
+}
